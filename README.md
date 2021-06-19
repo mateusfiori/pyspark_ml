@@ -11,7 +11,6 @@ development using PySpark.
 Run the following command:
 
 ```bash 
-docker run -it --rm -p 8888:8888 -v $PWD:/home/jovyan/work \
- jupyter/pyspark-notebook 
+docker run -it --rm -p 8888:8888 -v $PWD:/home/jovyan/work jupyter/pyspark-notebook 
 ```
     
